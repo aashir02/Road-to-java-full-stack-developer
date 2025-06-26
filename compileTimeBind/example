@@ -1,0 +1,17 @@
+public class ha{
+    public static void main(String[] args){
+        add(4);
+        add('a');
+        add(1,5);
+
+    }
+    public static void add(int a){
+        System.out.println(a);
+    }
+    public static void add(double d){
+        System.out.println(d);
+    }
+    public static void add(int a,double d){
+        System.out.println(a+d);
+    }
+}
